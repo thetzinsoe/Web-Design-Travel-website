@@ -1,0 +1,182 @@
+.main-sec {
+	color: white;
+	background: url("../img/discovery/img_mv_pc.png") no-repeat top/cover;
+	padding: 285px 0 200px 0;
+	text-align: center;
+	letter-spacing: 0.8px;
+}
+
+.main-blk-ct h3 {
+	margin-top: 28px;
+	line-height: 1.1;
+	letter-spacing: 0.3px;
+}
+
+.blog-sec {
+	margin-top: 99px;
+}
+
+.blog-content>h1 {
+	line-height: 1.2;
+	margin-bottom: 49px;
+}
+
+.blog-content>p {
+	line-height: 1.2;
+	letter-spacing: 0.1px;
+	text-align: justify;
+}
+
+.blog-sec .blog-content {
+	flex: 1 1 32.5%;
+	max-width: 32.5%;
+}
+
+.blog-sec .blog-post {
+	flex: 2 1 61.5%;
+	max-width: 61.5%;
+}
+
+.blog-ct>p {
+	width: 627px;
+	text-align: justify;
+}
+
+.blog-ct>span {
+	margin-bottom: 87px;
+}
+
+.blog-ct iframe {
+	width: 100%;
+	height: 300px;
+	border-radius: 5px;
+}
+
+.blog-post .blog-user {
+	display: flex;
+	align-items: end;
+}
+
+.blog-user {
+	margin-bottom: 45px;
+}
+
+.blog-user img {
+	margin-right: 33px;
+}
+
+.blog-ct p {
+	margin-bottom: 48px;
+}
+
+.blog-post .first-post {
+	margin-bottom: 98px;
+}
+
+.footer {
+	margin-top: 94px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+	.blog-sec .container {
+		flex-direction: column;
+	}
+
+	.blog-sec .blog-content,
+	.blog-sec .blog-post {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.main-sec {
+		color: white;
+		background: url("../img/discovery/img_mv_pc.png") no-repeat top/cover;
+		padding: 31.641vw 0 24.349vw 0;
+		text-align: center;
+		letter-spacing: 0.104vw;
+	}
+
+	.main-sec .main-blk-ct h1 {
+		line-height: 1.1;
+	}
+
+	.blog-content>p {
+		margin-bottom: 13.802vw;
+	}
+
+	.blog-ct p {
+		width: 100%;
+		margin-bottom: 5.208vw;
+		line-height: 1.1;
+	}
+
+	.blog-ct>span {
+		margin-bottom: 12.24vw;
+	}
+
+	.footer {
+		margin-top: 12.5vw;
+	}
+
+	.footer ul {
+		margin: 1.302vw 0 4.427vw 0;
+	}
+
+	.footer ul li {
+		padding: 0 0 0 4.167vw;
+	}
+}
+
+@media screen and (max-width: 767.9px) {
+	.blog-sec .container {
+		flex-direction: column;
+	}
+
+	.blog-sec .blog-content,
+	.blog-sec .blog-post {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.main-sec {
+		color: white;
+		background: url("../img/discovery/img_mv_sp.png") no-repeat top/cover;
+		padding: 35.938vw 0 12.5vw 0;
+		text-align: center;
+		letter-spacing: 0.125vw;
+	}
+
+	.main-sec .main-blk-ct h1 {
+		line-height: 1.1;
+	}
+
+	.blog-content>p {
+		margin-bottom: 17.344vw;
+	}
+
+	.blog-ct p {
+		width: 100%;
+		margin-bottom: 6.406vw;
+		line-height: 1.1;
+	}
+
+	.blog-ct iframe {
+		height: 38.594vw;
+	}
+
+	.blog-ct>span {
+		margin-bottom: 15vw;
+	}
+
+	.footer {
+		margin-top: 15vw;
+	}
+
+	.footer ul {
+		margin: 1.563vw 0 5.313vw 0;
+	}
+
+	.footer ul li {
+		padding: 0 0 0 5vw;
+	}
+}

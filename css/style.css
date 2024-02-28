@@ -60,7 +60,7 @@
 }
 
 .trend-slider {
-	margin-left: 53px;
+	/* margin-left: 53px; */
 }
 
 .trend-slider .card {
@@ -102,7 +102,7 @@
 
 .trend-slider .slick-next {
 	color: transparent;
-	width: 70px;
+	width: 34px;
 	height: 70px;
 	border: none;
 	background-color: transparent;
@@ -260,12 +260,22 @@ ul#tabs-nav li a {
 		background: url("../img/common/ico_clock_.png") no-repeat center/contain;
 	}
 
-	.trend-slider {
-		margin-left: 2.604vw;
+	.trend-slider .slick-list .slick-track {
+		/* margin-left: 2.604vw; */
+		margin-left: 23%;
 	}
 
 	.trend-slider .card {
-		margin-left: 7.031vw;
+		/* margin-left: 7.031vw; */
+		margin-left: 20px;
+	}
+
+	.trend-slider .slick-active.slick-center+.card {
+		margin-left: 2%;
+	}
+
+	.trend-slider .card+.card {
+		/* margin-right: 2%; */
 	}
 
 	.trend-slider .slick-next {
@@ -367,33 +377,30 @@ ul#tabs-nav li a {
 	.trend-slider .slick-prev {
 		visibility: visible;
 		color: transparent;
-		width: 7.031vw;
+		width: 4.031vw;
 		height: 7.031vw;
 		border: none;
 		background-color: transparent;
 		position: absolute;
 		top: 39%;
-		left: -9.688vw;
+		left: 0;
 		background-image: url("../img/common/vector_lt.png");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: contain;
-		z-index: 99;
+		z-index: 9;
 	}
+
+	.trend-slider .slick-active {
+		margin: 0 2%;
+	}
+
 
 	.trend-slider .slick-next {
-		width: 7.031vw;
+		width: 4.031vw;
 		height: 7.031vw;
 		top: 39%;
-		right: -2.344vw;
-	}
-
-	.trend-slider .slick-track {
-		margin-left: 15%;
-	}
-
-	.trend-slider .card {
-		margin: 0 10.938vw;
+		right: 0;
 	}
 
 	.tab-content {
